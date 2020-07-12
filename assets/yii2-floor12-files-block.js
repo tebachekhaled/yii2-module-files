@@ -6,6 +6,6 @@ function filesDownloadAll(title, event, yiiDownloadAllLink) {
     });
     console.log(hashes);
 
-    window.open(yiiDownloadAllLink + "?title=" + title + hashes);
+    window.open(yiiDownloadAllLink + "&title=" + title + hashes);
 
 }
